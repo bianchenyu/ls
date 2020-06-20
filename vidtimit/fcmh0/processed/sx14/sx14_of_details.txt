@@ -1,0 +1,13 @@
+Input:E:\ls\人脸表情动画\数据集\vidtimit\fcmh0\video\sx14
+Input full path:E:\ls\人脸表情动画\数据集\vidtimit\fcmh0\video\sx14
+Camera parameters:400,400,256,192
+Output HOG:sx14.hog
+Output video:sx14.avi
+Output aligned directory:sx14_aligned
+Output csv:sx14.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

@@ -1,0 +1,13 @@
+Input:E:\ls\人脸表情动画\数据集\vidtimit\fcmr0\video\sa1
+Input full path:E:\ls\人脸表情动画\数据集\vidtimit\fcmr0\video\sa1
+Camera parameters:400,400,256,192
+Output HOG:sa1.hog
+Output video:sa1.avi
+Output aligned directory:sa1_aligned
+Output csv:sa1.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

@@ -1,0 +1,13 @@
+Input:E:\ls\人脸表情动画\数据集\vidtimit\fcmr0\video\sx385
+Input full path:E:\ls\人脸表情动画\数据集\vidtimit\fcmr0\video\sx385
+Camera parameters:400,400,256,192
+Output HOG:sx385.hog
+Output video:sx385.avi
+Output aligned directory:sx385_aligned
+Output csv:sx385.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

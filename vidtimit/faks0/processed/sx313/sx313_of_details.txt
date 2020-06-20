@@ -1,0 +1,13 @@
+Input:E:\ls\人脸表情动画\数据集\vidtimit\faks0\video\sx313
+Input full path:E:\ls\人脸表情动画\数据集\vidtimit\faks0\video\sx313
+Camera parameters:400,400,256,192
+Output HOG:sx313.hog
+Output video:sx313.avi
+Output aligned directory:sx313_aligned
+Output csv:sx313.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

@@ -1,0 +1,91 @@
+1、代码说明
+	au_classifier_model.py：AU分类预测的模型
+	au_predicter_model.py: AU强度预测的模型
+	TEST.py: 生成AU分类预测的模型
+	data_loader.py: 导入数据
+	config.py：设置了mfcc_win_step_per_frame、mfcc_dim、up_sample_rate、window_size
+	data_trasfer.py, vidmit_processor.py：处理数据集的代码，这边师兄用不到
+
+2、运行前需要改动的代码
+	改一下data_loader.py第51行的datapath，改为数据集的位置
+	data_loader运行时会chdir，TEST时建议保存文件使用绝对路径
+
+3、使用的环境
+
+E:\ls\pyworkspace\FaceAni>pip list
+Package                Version
+---------------------- ------------
+absl-py                0.9.0
+asgiref                3.2.7
+astor                  0.8.1
+backcall               0.1.0
+blurhash               1.1.4
+boost                  0.1
+certifi                2020.4.5.1
+chardet                3.0.4
+chumpy                 0.69
+colorama               0.4.3
+cycler                 0.10.0
+decorator              4.4.2
+Django                 3.0.5
+freetype-py            2.1.0.post1
+gast                   0.3.3
+google-pasta           0.2.0
+grpcio                 1.28.1
+h5py                   2.10.0
+idna                   2.9
+image                  1.5.31
+imageio                2.8.0
+ipython                7.13.0
+ipython-genutils       0.2.0
+jedi                   0.17.0
+joblib                 0.14.1
+Keras                  2.3.1
+Keras-Applications     1.0.8
+Keras-Preprocessing    1.1.0
+kiwisolver             1.2.0
+llvmlite               0.31.0
+Markdown               3.2.1
+Mastodon.py            1.5.1
+matplotlib             3.2.1
+networkx               2.4
+numba                  0.48.0
+numpy                  1.18.3
+opencv-python          4.2.0.34
+parso                  0.7.0
+pickleshare            0.7.5
+Pillow                 7.1.2
+pip                    20.0.2
+prompt-toolkit         3.0.5
+protobuf               3.11.3
+psbody-mesh            0.3
+pyglet                 1.5.4
+Pygments               2.6.1
+PyOpenGL               3.1.0
+pyparsing              2.4.7
+pyrender               0.1.39
+python-dateutil        2.8.1
+python-magic           0.4.15
+python-speech-features 0.6
+pytz                   2019.3
+pyyaml                 5.3.1
+pyzmq                  19.0.0
+requests               2.23.0
+resampy                0.2.2
+scikit-learn           0.22.2.post1
+scipy                  1.4.1
+setuptools             46.1.3
+six                    1.14.0
+SQLAlchemy             1.3.16
+sqlparse               0.3.1
+tensorboard            1.14.0
+tensorflow-estimator   1.14.0
+tensorflow-gpu         1.14.0
+termcolor              1.1.0
+traitlets              4.3.3
+trimesh                3.6.33
+urllib3                1.25.9
+wcwidth                0.1.9
+Werkzeug               1.0.1
+wheel                  0.33.6
+wrapt                  1.12.1
